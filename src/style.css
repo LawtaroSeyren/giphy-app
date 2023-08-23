@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+/* COLORES */
+/* GENERAL */
+html {
+  font-family: "Poppins", sans-serif;
+  background-color: #222334;
+  color: white;
+}
+
+body {
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid black;
+  color: black;
+  font-size: 1.2rem;
+  outline: none;
+  padding: 10px 15px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+  margin-bottom: 5px;
+}
+
+/* GIFS */
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.appContainer,
+.appContainer-pink {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card {
+  background-color: #c3c3c3;
+  border: 2px solid #222334;
+  width: 320px;
+  height: 300px;
+  display: flex;
+  border-radius: 7px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.appContainer-pink .card:hover {
+  border: 2px solid #e1306c;
+}
+.appContainer-pink .title-text {
+  color: white;
+}
+.appContainer-pink .title-bar {
+  background-color: #e1306c;
+}
+.appContainer-pink .btnReload {
+  color: #e1306c;
+}
+.appContainer-pink .btnMode {
+  color: #3BBA9C;
+}
+
+.appContainer .card:hover {
+  border: 2px solid #3BBA9C;
+}
+.appContainer .title-text {
+  color: #222334;
+}
+.appContainer .title-bar {
+  background-color: #3BBA9C;
+}
+.appContainer .btnReload {
+  color: #3BBA9C;
+}
+.appContainer .btnMode {
+  color: #e1306c;
+}
+
+.card:hover {
+  background-color: #43455c;
+  box-shadow: 0px 8px 16px rgb(0, 0, 0);
+  scale: 1.02;
+}
+.card:hover .gif-image {
+  filter: grayscale(0%);
+}
+
+.image-container {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  overflow: hidden;
+}
+
+.gif-image {
+  max-width: 100%;
+  filter: grayscale(100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.title-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s;
+}
+
+.title-text {
+  font-size: 14px;
+  text-align: center;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.gifLink {
+  text-decoration: none;
+}
+
+.categoryContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.buttonContainer {
+  display: flex;
+  gap: 10px;
+}
+
+button {
+  all: unset;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+button:hover {
+  filter: brightness(1.7);
+}
+
+.btnDelete {
+  color: #FF5733;
+}
+
+.btnMode {
+  margin-top: 2rem;
+}
+
+/*# sourceMappingURL=style.css.map */
